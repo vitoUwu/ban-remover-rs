@@ -1,0 +1,13 @@
+[package]
+name = "ban-remover-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+tokio = { version = "1.34.0", features = ["full"] }
+twilight-http = "0.15.4"
+twilight-model = "0.15.4"
+twilight-util = "0.15.4"
